@@ -33,7 +33,7 @@ void cadastro()
 {
 	char o;
 	do{
-		system("cls");       //limpa a tela 
+		system("cls || clear");       //limpa a tela 
         cout<<"  ______________________________________________________________"<<endl;
         cout<<" |   \t                                                        |\n";
         cout<<" |   \tCPF do cliente: ";
@@ -86,7 +86,7 @@ void editar()
 	int i, k, x;
 	do{
 		do{
-			system("cls");
+			system("cls || clear");
 			i=0; x=0;
 			o = ' ';
 			for(int j=0; j<20; j++)
@@ -123,7 +123,7 @@ void editar()
 					if (o=='s' || o=='S'){
 						do{
                             if(x > 0){  
-                                system("cls"); 
+                                system("cls || clear"); 
                                 cout<<endl;
             	                cout<<"  ______________________________________________________________"<<endl;
             	                cout<<"/|   \t                                                        |\n";
@@ -244,7 +244,7 @@ void excluir()
 	int i, k;
 	do{
 		do{
-			system("cls");
+			system("cls || clear");
 			i=0;
 			o = ' ';
 			for(int j=0; j<20; j++)
@@ -330,7 +330,7 @@ void pesquisar()
 	char pesquisa[20],o;
 	int i;
 	do{
-		system("cls");
+		system("cls || clear");
 		i=0;
 		cout<<endl<<"    \t>> Placa do carro: ";
 		cin.getline(pesquisa,20);
@@ -369,7 +369,7 @@ void pesquisar()
 
 void listar()
 {
-    system("cls");
+    system("cls || clear");
     int k=0;
 	fseek(teste, 0, SEEK_SET);   //topo, p comecar
 	fseek(teste, sizeof(cliente), SEEK_CUR);
@@ -426,7 +426,7 @@ int main()
         cout<<"\t\t\t  \\_/ \\_/   \\_/ \\_/        \n";
         cout<<endl<<"\t\t\t\tLOADING"<<endl;
         usleep(100000);
-        system("cls");   
+        system("cls || clear");   
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t    ________________       \n";
         cout<<"\t\t\t   /|   | |   \\ \\   \\      \n";
@@ -436,7 +436,7 @@ int main()
         cout<<"\t\t\t    \\_/ \\_/   \\_/ \\_/      \n";
         cout<<endl<<"\t\t\t\tLOADING"<<endl;
         usleep(100000);
-        system("cls"); 
+        system("cls || clear"); 
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t      ________________     \n";
         cout<<"\t\t\t     /|   | |   \\ \\   \\    \n";
@@ -446,7 +446,7 @@ int main()
         cout<<"\t\t\t      \\_/ \\_/   \\_/ \\_/    \n";
         cout<<endl<<"\t\t\t\tLOADING"<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t        ________________   \n";
         cout<<"\t\t\t       /|   | |   \\ \\   \\  \n";
@@ -456,7 +456,7 @@ int main()
         cout<<"\t\t\t        \\_/ \\_/   \\_/ \\_/  \n";
         cout<<endl<<"\t\t\t\tLOADING."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t          ________________ \n";
         cout<<"\t\t\t         /|   | |   \\ \\   \\\n";
@@ -466,7 +466,7 @@ int main()
         cout<<"\t\t\t          \\_/ \\_/   \\_/ \\_/\n";
         cout<<endl<<"\t\t\t\tLOADING."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t_           _______________\n";
         cout<<"\t\t\t \\         /|   | |   \\ \\  \n";
@@ -476,7 +476,7 @@ int main()
         cout<<"\t\t\t_/          \\_/ \\_/   \\_/ \\\n";
         cout<<endl<<"\t\t\t\tLOADING."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t___           _____________\n";
         cout<<"\t\t\t   \\         /|   | |   \\ \\\n";
@@ -486,7 +486,7 @@ int main()
         cout<<"\t\t\t \\_/          \\_/ \\_/   \\_/\n";
         cout<<endl<<"\t\t\t\tLOADING.."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t_____           ___________\n";
         cout<<"\t\t\t \\   \\         /|   | |   \\\n";
@@ -496,7 +496,7 @@ int main()
         cout<<"\t\t\t_/ \\_/          \\_/ \\_/   \\\n";
         cout<<endl<<"\t\t\t\tLOADING.."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t_______           _________\n";
         cout<<"\t\t\t \\ \\   \\         /|   | |  \n";
@@ -506,7 +506,7 @@ int main()
         cout<<"\t\t\t \\_/ \\_/          \\_/ \\_/  \n";
         cout<<endl<<"\t\t\t\tLOADING.."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t_________           _______\n";
         cout<<"\t\t\t   \\ \\   \\         /|   | |\n";
@@ -516,7 +516,7 @@ int main()
         cout<<"\t\t\t   \\_/ \\_/          \\_/ \\_/\n";
         cout<<endl<<"\t\t\t\tLOADING.."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t___________           _____\n";
         cout<<"\t\t\t |   \\ \\   \\         /|   |\n";
@@ -526,7 +526,7 @@ int main()
         cout<<"\t\t\t_/   \\_/ \\_/          \\_/ \\\n";
         cout<<endl<<"\t\t\t\tLOADING..."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t_____________           ___\n";
         cout<<"\t\t\t | |   \\ \\   \\         /|  \n";
@@ -536,7 +536,7 @@ int main()
         cout<<"\t\t\t \\_/   \\_/ \\_/          \\_/\n";
         cout<<endl<<"\t\t\t\tLOADING..."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         cout<<"\n\n\n\n\n\n\n\t\t\t\t"<<endl; 
         cout<<"\t\t\t_______________           _\n";
         cout<<"\t\t\t   | |   \\ \\   \\         /|\n";
@@ -546,7 +546,7 @@ int main()
         cout<<"\t\t\t_/ \\_/   \\_/ \\_/          \\\n";
         cout<<endl<<"\t\t\t\tLOADING..."<<endl;
         usleep(100000);
-        system("cls");
+        system("cls || clear");
         
     }
     
@@ -554,7 +554,7 @@ int main()
     
     //menu
 	do{
-		system("cls");
+		system("cls || clear");
         cout<<"	___           ___           ___           ___                           ";   
 		cout<<"       /  /\\         /  /\\         /  /\\         /  /\\               "<<endl;
 		cout<<"      /  /::|       /  /::\\       /  /::|       /  /:/                  "<<endl;
